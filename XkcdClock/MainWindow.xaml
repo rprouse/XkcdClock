@@ -11,7 +11,7 @@
         Background="#00000000" 
         AllowsTransparency="True" 
         MouseDown="OnMouseDown" 
-        KeyUp="OnKeyUp" >
+        KeyUp="OnKeyUp" Icon="clock.ico" >
     <Window.DataContext>
         <xkcdClock:ClockRotation />
     </Window.DataContext>
