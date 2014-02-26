@@ -7,12 +7,19 @@
         Width="706" 
         ResizeMode="NoResize" 
         SizeToContent="WidthAndHeight" 
-        WindowStyle="ToolWindow" >
+        WindowStyle="None" 
+        Background="#00000000" 
+        AllowsTransparency="True" 
+        MouseDown="OnMouseDown" 
+        KeyUp="OnKeyUp" >
     <Window.DataContext>
         <xkcdClock:ClockRotation />
     </Window.DataContext>
     <Grid>
-        <Image x:Name="Inner" Source="Resources/Inner.png" Height="706" Width="706" RenderTransformOrigin="0.5,0.5" >
+        <Image x:Name="Inner" 
+               Source="Resources/Inner.png" 
+               Height="706" Width="706" 
+               RenderTransformOrigin="0.5,0.5" >
             <Image.RenderTransform>
                 <TransformGroup>
                     <RotateTransform Angle="{Binding Path=InnerRotation}"/>
