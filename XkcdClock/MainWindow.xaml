@@ -13,7 +13,7 @@
         MouseDown="OnMouseDown" 
         KeyUp="OnKeyUp" Icon="clock.ico" >
     <Window.ContextMenu>
-        <ContextMenu>
+        <ContextMenu Foreground="#FF333333">
             <MenuItem Click="OnAbout" Header="About">
                 <MenuItem.Icon>
                     <TextBlock Text="&#xf017;" FontSize="16" Style="{StaticResource FontAwesome}" />

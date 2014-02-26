@@ -32,6 +32,9 @@ namespace XkcdClock
 
         private void OnAbout( object sender, RoutedEventArgs e )
         {
+            var about = new About();
+            about.Owner = this;
+            about.ShowDialog();
         }
     }
 }
