@@ -1,0 +1,9 @@
+﻿<Window x:Class="XkcdClock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="xkcd World Clock" Height="705"  Width="706" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStyle="ToolWindow">
+    <Grid>
+        <Image x:Name="Outer" Source="Resources/Outer.png" Height="705"  Width="706" />
+        <Image x:Name="Inner" Source="Resources/Inner.png" Height="705"  Width="706" />
+    </Grid>
+</Window>
