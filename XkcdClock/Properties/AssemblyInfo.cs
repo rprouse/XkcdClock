@@ -7,12 +7,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle( "XkcdClock" )]
-[assembly: AssemblyDescription( "" )]
+[assembly: AssemblyTitle( "Xkcd World Clock" )]
+[assembly: AssemblyDescription("A WPF desktop implementation of the World Clock created by Randall Munroe, creator of the web comic xkcd.")]
 [assembly: AssemblyConfiguration( "" )]
-[assembly: AssemblyCompany( "" )]
+[assembly: AssemblyCompany( "Alteridem Consulting" )]
 [assembly: AssemblyProduct( "XkcdClock" )]
-[assembly: AssemblyCopyright( "Copyright ©  2014" )]
+[assembly: AssemblyCopyright("Copyright © 2014, Rob Prouse")]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
 
