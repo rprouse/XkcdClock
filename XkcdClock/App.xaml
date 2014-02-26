@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="FontAwesome">
+            <Setter Property="TextElement.FontFamily" Value="/XkcdClock;Component/Resources/#FontAwesome" />
+        </Style>
     </Application.Resources>
 </Application>

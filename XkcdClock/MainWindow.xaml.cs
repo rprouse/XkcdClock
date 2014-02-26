@@ -1,4 +1,5 @@
-﻿using System.Windows.Input;
+﻿using System.Windows;
+using System.Windows.Input;
 
 namespace XkcdClock
 {
@@ -11,7 +12,7 @@ namespace XkcdClock
         {
             InitializeComponent();
         }
-
+        
         private void OnMouseDown(object sender, MouseButtonEventArgs e)
         {
             if(e.ChangedButton == MouseButton.Left)
@@ -22,6 +23,15 @@ namespace XkcdClock
         {
             if(e.Key == Key.Escape)
                 Close();
+        }
+
+        private void OnExit(object sender, System.Windows.RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void OnAbout( object sender, RoutedEventArgs e )
+        {
         }
     }
 }

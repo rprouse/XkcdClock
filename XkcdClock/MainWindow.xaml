@@ -12,6 +12,21 @@
         AllowsTransparency="True" 
         MouseDown="OnMouseDown" 
         KeyUp="OnKeyUp" Icon="clock.ico" >
+    <Window.ContextMenu>
+        <ContextMenu>
+            <MenuItem Click="OnAbout" Header="About">
+                <MenuItem.Icon>
+                    <TextBlock Text="&#xf017;" FontSize="16" Style="{StaticResource FontAwesome}" />
+                </MenuItem.Icon>
+            </MenuItem>
+            <Separator />
+            <MenuItem Click="OnExit" Header="Exit">
+                <MenuItem.Icon>
+                    <TextBlock Text="&#xf08b;" FontSize="16" Style="{StaticResource FontAwesome}" />
+                </MenuItem.Icon>
+            </MenuItem>
+        </ContextMenu>
+    </Window.ContextMenu>
     <Window.DataContext>
         <xkcdClock:ClockRotation />
     </Window.DataContext>
