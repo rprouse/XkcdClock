@@ -7,5 +7,6 @@ A WPF desktop implementation of the [World Clock](http://xkcd.com/1335/) created
 - The Escape key will close the clock
 - Mouse over the clock and it will display the current time.
 - Right click on the clock brings up a context menu of options.
+- The current local time is marked by the sun/moon rotating around the clock.
 
 ![World Clock](http://imgs.xkcd.com/comics/now.png)
