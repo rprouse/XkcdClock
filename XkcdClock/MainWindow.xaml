@@ -12,8 +12,10 @@
         AllowsTransparency="True" 
         MouseDown="OnMouseDown" 
         KeyUp="OnKeyUp" 
-        Icon="clock.ico"
-        ToolTip="{Binding Path=LocalTime}">
+        Icon="clock.ico">
+    <Window.ToolTip>
+        <TextBlock Margin="6" FontSize="24" FontWeight="Bold" Text="{Binding Path=LocalTime}" />
+    </Window.ToolTip>
     <Window.ContextMenu>
         <ContextMenu Foreground="#FF333333">
             <MenuItem Click="OnAbout" Header="About">
