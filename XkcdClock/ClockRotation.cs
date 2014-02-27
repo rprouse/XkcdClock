@@ -95,6 +95,14 @@ namespace XkcdClock
             get { return DateTime.Now.ToShortTimeString(); }
         }
 
+        /// <summary>
+        /// Gets the local date to display in the tooltip.
+        /// </summary>
+        public string LocalDate
+        {
+            get { return DateTime.Now.ToShortDateString(); }
+        }
+
         private bool IsDay
         {
             get

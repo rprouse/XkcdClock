@@ -13,7 +13,10 @@
         KeyUp="OnKeyUp" 
         Icon="clock.ico">
     <Window.ToolTip>
-        <TextBlock Margin="6" FontSize="24" FontWeight="Bold" Text="{Binding Path=LocalTime}" />
+        <StackPanel Orientation="Vertical">
+            <TextBlock Margin="2,2,2,0" FontSize="24" FontWeight="Bold" Text="{Binding Path=LocalTime}" HorizontalAlignment="Center" />
+            <TextBlock Margin="2,0,2,2" FontSize="14" FontWeight="Normal" Text="{Binding Path=LocalDate}" HorizontalAlignment="Center" />
+        </StackPanel>
     </Window.ToolTip>
     <Window.ContextMenu>
         <ContextMenu Foreground="#FF333333">
