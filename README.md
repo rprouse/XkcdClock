@@ -1,4 +1,4 @@
-Xkcd World Clock
+xkcd World Clock
 ================
 
 A WPF desktop implementation of the [World Clock](http://xkcd.com/1335/) created by Randall Munroe, creator of the web comic [xkcd](http://xkcd.com).
