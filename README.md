@@ -12,3 +12,5 @@ A WPF desktop implementation of the [World Clock](http://xkcd.com/1335/) created
 - The current local time is marked by the sun/moon rotating around the clock.
 
 ![World Clock](http://imgs.xkcd.com/comics/now.png)
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial 2.5 License](http://creativecommons.org/licenses/by-nc/2.5/).
