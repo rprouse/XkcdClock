@@ -11,16 +11,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Folder", "Solution
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "XkcdClockSetup", "XkcdClockSetup\XkcdClockSetup.isproj", "{24B4FE43-470B-41F5-A72A-D8FFD0423D59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
 		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
 		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B3C8D68-A388-453F-BF51-BF4AC7FE4984}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3C8D68-A388-453F-BF51-BF4AC7FE4984}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
 		{4B3C8D68-A388-453F-BF51-BF4AC7FE4984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4B3C8D68-A388-453F-BF51-BF4AC7FE4984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3C8D68-A388-453F-BF51-BF4AC7FE4984}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3C8D68-A388-453F-BF51-BF4AC7FE4984}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
 		{4B3C8D68-A388-453F-BF51-BF4AC7FE4984}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B3C8D68-A388-453F-BF51-BF4AC7FE4984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3C8D68-A388-453F-BF51-BF4AC7FE4984}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3C8D68-A388-453F-BF51-BF4AC7FE4984}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{24B4FE43-470B-41F5-A72A-D8FFD0423D59}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{24B4FE43-470B-41F5-A72A-D8FFD0423D59}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{24B4FE43-470B-41F5-A72A-D8FFD0423D59}.Debug|Any CPU.ActiveCfg = DVD-5
+		{24B4FE43-470B-41F5-A72A-D8FFD0423D59}.Debug|Any CPU.Build.0 = DVD-5
+		{24B4FE43-470B-41F5-A72A-D8FFD0423D59}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{24B4FE43-470B-41F5-A72A-D8FFD0423D59}.DVD-5|Any CPU.Build.0 = DVD-5
+		{24B4FE43-470B-41F5-A72A-D8FFD0423D59}.Release|Any CPU.ActiveCfg = SingleImage
+		{24B4FE43-470B-41F5-A72A-D8FFD0423D59}.Release|Any CPU.Build.0 = SingleImage
+		{24B4FE43-470B-41F5-A72A-D8FFD0423D59}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{24B4FE43-470B-41F5-A72A-D8FFD0423D59}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
