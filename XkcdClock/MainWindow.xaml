@@ -11,7 +11,9 @@
         Background="#00000000" 
         AllowsTransparency="True" 
         MouseDown="OnMouseDown" 
-        KeyUp="OnKeyUp" Icon="clock.ico" >
+        KeyUp="OnKeyUp" 
+        Icon="clock.ico"
+        ToolTip="{Binding Path=LocalTime}">
     <Window.ContextMenu>
         <ContextMenu Foreground="#FF333333">
             <MenuItem Click="OnAbout" Header="About">

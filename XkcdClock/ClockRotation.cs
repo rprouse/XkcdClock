@@ -28,6 +28,11 @@ namespace XkcdClock
             get { return Rotation(); } 
         }
 
+        public string LocalTime
+        {
+            get { return DateTime.Now.ToShortTimeString(); }
+        }
+
         private const double SECONDS_IN_DAY = 24*60*60;
 
         private double Rotation()
