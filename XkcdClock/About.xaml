@@ -25,22 +25,47 @@
             FontSize="96" 
             VerticalAlignment="Top" 
             Height="98" Width="82"/>
-        <TextBlock 
+        <StackPanel
+            Grid.Row="0"
             Grid.Column="1" 
+            Orientation="Vertical"
             HorizontalAlignment="Left" 
-            VerticalAlignment="Top" 
-            Margin="20" 
-            FontSize="12" 
-            TextWrapping="Wrap" 
-            Text="TextBlock"
-            Height="16" Width="50"/>
+            VerticalAlignment="Top" >
+            <TextBlock 
+                HorizontalAlignment="Left" 
+                Margin="20,20,20,10" 
+                FontSize="28"
+                FontWeight="Bold"
+                TextWrapping="Wrap" 
+                Text="xkcd world clock" />
+            <TextBlock 
+                HorizontalAlignment="Left" 
+                Margin="20,6" 
+                FontSize="12" 
+                TextWrapping="Wrap" 
+                Text="The idea and the graphics for this clock were created by Randall Munroe, the creator of the web comic xkcd. This application was created by Rob Prouse." />
+            <TextBlock 
+                HorizontalAlignment="Left" 
+                Margin="20,6" 
+                FontSize="12"
+                TextWrapping="Wrap" >
+                <Hyperlink NavigateUri="http://www.xkcd.com">xkcd - A webcomic of romance, sarcasm, math, and language.</Hyperlink>
+            </TextBlock>
+            <TextBlock 
+                HorizontalAlignment="Left" 
+                Margin="20,6" 
+                FontSize="12"
+                TextWrapping="Wrap" >
+                <Hyperlink NavigateUri="http://www.alteridem.net/">Alteridem Consulting - Software by Design</Hyperlink>
+            </TextBlock>
+        </StackPanel>
         <Button 
             Grid.Row="1" 
             Grid.Column="1" 
             HorizontalAlignment="Right" 
             VerticalAlignment="Bottom"
             Width="75" 
-            Margin="0,0,6,6" 
+            Margin="0,0,10,10" 
             Height="20" 
             IsDefault="True" 
             Click="OnClose" >
