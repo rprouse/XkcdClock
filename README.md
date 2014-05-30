@@ -1,9 +1,12 @@
-xkcd World Clock
-================
+# xkcd World Clock #
 
 A WPF desktop implementation of the [World Clock](http://xkcd.com/1335/) created by Randall Munroe, creator of the web comic [xkcd](http://xkcd.com).
 
+[![Build status](https://ci.appveyor.com/api/projects/status/26ld95tqphqrm9lt)](https://ci.appveyor.com/project/rprouse/xkcdclock)
+
 **[Download the latest Release](https://github.com/rprouse/XkcdClock/releases)**
+
+## Instructions ##
 
 - Left Click and drag to move the clock
 - The Escape key will close the clock
